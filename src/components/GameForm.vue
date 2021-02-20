@@ -110,8 +110,7 @@ export default {
             valid: false,
             dialog: false,
             title: '',
-            developer: '',
-            publisher: '',
+          
             description: '',
             file: null,
             fieldRules: [
@@ -136,8 +135,7 @@ export default {
                 let data = {
                     userId: auth.currentUser.uid,
                     title: this.title,
-                    developer: this.developer,
-                    publisher: this.publisher,
+                   
                     description: this.description,
                     image: fileRef
                 }
@@ -159,8 +157,7 @@ export default {
                 let data = {
                     userId: auth.currentUser.uid,
                     title: this.title,
-                    developer: this.developer,
-                    publisher: this.publisher,
+                   
                     description: this.description
                 }
                 
@@ -193,8 +190,7 @@ export default {
         setData() {
             if(this.game) {
                 this.title = this.game.title
-                this.publisher = this.game.publisher
-                this.developer = this.game.developer
+                
                 this.description = this.game.description
                 this.oldImage = this.game.image
             }
