@@ -1,4 +1,4 @@
-# vue-firebase
+# Bridge-Africa
 This project is a simple CRUD applciation with firebase authentication. The application is based on vue, vue-router, firebase tools - cloud firestore, firebase authentication, and storage.
 
 ## Project setup
